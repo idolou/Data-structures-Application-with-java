@@ -1,11 +1,11 @@
 import java.util.LinkedList;
-public class StudentSolution  implements MyInterface{
+public class Solution  implements MyInterface{
 
 	private AVL<RecPoint> X_tree;
 	private AVL<RecPoint> Y_tree;
 
 	//constructor
-	public StudentSolution() {
+	public Solution() {
 		this.X_tree = new AVL<RecPoint>();
 		this.Y_tree = new AVL<RecPoint>();
 	}
