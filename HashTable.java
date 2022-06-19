@@ -15,6 +15,9 @@ public class HashTable {
 
 	/**Will return the hash key based on the given function (x+y)%m **/
 	public int Hash_func(int X, int Y){
+		if (m==0){
+			throw new IllegalArgumentException("division by zero");
+		}
 		return ((X + Y)% m);
 	}
 

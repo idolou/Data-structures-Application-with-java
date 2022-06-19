@@ -1,5 +1,4 @@
 
-
 public interface MyInterface {
 	
 	public void insertDataFromDBFile(String objectName, int objectX, int objectY);
